@@ -1,19 +1,12 @@
 import React from "react";
-import Taquito from "./icons/Taco1.png"
-import Fondo from "./icons/fondo.png"
-
-const bgImage = {
-    backgroundImage: `url(${Fondo})`,
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    height: "100%",
-    width: "100%",
-  };
+import Logo from "./icons/logocharly.png"
 
 const Hero = () => {
     return(
-        <div style={bgImage} className="min-h-[550px] sm:min-h-[600px] bg-gray-100 dark:bg-gray-950 dark:text-white duration-200 flex justify-center items-center">
+        <div  className="min-h-[550px] sm:min-h-[600px] bg-gray-100 duration-200 flex justify-center items-center">
+            <div className="lg:h-[550px] lg:w-[550px] lg:bg-red-500 absolute lg:right-32 lg:top-20 lg:rounded-3xl lg:rotate-0 h-[550px] w-[586px] bg-red-500 -top-8 -z[8]" />
+            <div className="lg:h-[15px] lg:w-[550px] lg:bg-red-500 absolute lg:-left-64 top-1 lg:rotate-45 lg:rounded-3xl -z[8]" />
+            <div className="lg:h-[15px] lg:w-[550px] lg:bg-red-500 absolute lg:left-80 bottom-1 lg:rotate-45 lg:rounded-3xl -z[8]" />
             <div className="container pb-8 sm:pb-0">
                 <div className="grid grid-cols-1 sm:grid-cols-2">
                     {/* text content section*/}
@@ -28,7 +21,7 @@ const Hero = () => {
                     <div className="order-1 sm:order-2 min-h-[450px] sm:min-h-[450px] flex justify-center items-center relative">
                         {/* main image section */}
                         <div className="flex justify-center items-center h-[300px] sm:h-[450px] overflow-hidden">
-                            <img src={Taquito} alt="" className="w-[300px] sm:w-[450px] mx-auto "/>
+                            <img src={Logo} alt="" className="w-[270px] sm:w-[410px] mx-auto sm:ml-24"/>
                         </div>
                     </div>
                 </div>
