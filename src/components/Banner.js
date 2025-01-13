@@ -26,19 +26,13 @@ const Banner = () => {
               </div>
               {/* Sección de texto */}
               <div className="flex flex-col justify-center gap-4 sm:gap-6 sm:pt-0">
-                <h1 className="text-xl sm:text-3xl font-bold">
-                  TACOS - $2.90
-                </h1>
-                <p className="text-xs sm:text-sm text-gray-500 tracking-wide leading-4 sm:leading-5">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eaque reiciendis inventore iste ratione ex alias quis magni at
-                  optio
+                <h1 className="text-3xl sm:text-6xl font-bold text-center text-red-600">TACOS - $2.90</h1>
+                <p className="text-lg sm:text-2xl text-black text-center tracking-wider sm:tracking-normal leading-5 sm:leading-2">
+                  Asada ● Chorizo ● Lengua ● Cabeza ● Suadero
                   <br />
+                  Barbacoa ● Lengua ● Buche ● Chicharron ● Tripa
                   <br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae ab sed, exercitationem minima aliquid eligendi
-                  distinctio? Fugit repudiandae numquam hic quo recusandae.
-                  Excepturi totam ad nam velit quasi quidem aspernatur.
+                  Pollo ● Pastor ● Chile Verde 
                 </p>
               </div>
             </div>
