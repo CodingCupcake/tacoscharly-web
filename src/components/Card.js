@@ -10,12 +10,10 @@ const Card = ({urlImg, name, desc, price}) => {
 
             <div className="space-y-2 p-3">
                 <h1 className="line-clamp-1 font-bold text-xl">{name}</h1>
-                <div className="flex items-center justify-between border-t-2 y-3 !mt-3">
-                    <div className="opacity-70">
-                        <p>{desc}</p>
-                    </div>
+                <p className="line-clamp-2 opacity-70">{desc}</p>
+                <div className="flex items-center justify-center border-t-2 y-3 !mt-3">
                     <div>
-                        <p className="text-2xl font-bold"></p>
+                        <p className="text-2xl font-bold">{price}</p>
                     </div>
                 </div>
             </div>
