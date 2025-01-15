@@ -28,7 +28,7 @@ const Banner = () => {
               <div className="flex flex-col justify-center gap-4 sm:gap-6 sm:pt-0">
                 <h1 className="text-[20px] sm:text-6xl font-bold text-center text-red-600">TACOS - $2.90</h1>
                 <p className="text-[10px] sm:text-2xl text-black text-center tracking-wider sm:tracking-normal leading-5 sm:leading-2">
-                  Asada ● Chorizo ● Lengua ● Cabeza ● Suadero
+                  Asada ● Chorizo ● Carnitas ● Cabeza ● Suadero
                   <br />
                   Barbacoa ● Lengua ● Buche ● Chicharron ● Tripa
                   <br />
