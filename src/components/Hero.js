@@ -11,7 +11,7 @@ const Hero = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2">
                     {/* text content section*/}
                     <div className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1">
-                        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">Bienvenido a tacos Charly</h1>
+                        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">Bienvenido a Charly Tacos</h1>
                         <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dolor magna, venenatis quis elementum sed, feugiat ac sem. Suspendisse eget consequat odio, et ornare metus.</p>
                     </div>
                     {/* image section */}

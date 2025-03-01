@@ -7,7 +7,7 @@ import Menu from './components/Menu';
 
 function App() {
   return (
-    <div>
+    <div className='pt-10'>
       <Navbar />
       <Hero />
       <Banner />

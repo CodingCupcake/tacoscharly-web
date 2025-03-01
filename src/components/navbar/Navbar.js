@@ -3,7 +3,7 @@ import Logo from "../icons/taquito 2.0.png"
 
 const Navbar = () => {
     return (
-        <div className="shadow-md bg-primary w-full duration-200 z-50 relative">
+        <div className="shadow-md bg-primary w-full duration-200 z-50 fixed top-0 left-0">
             <div className="container py-3 sm:py-0">
                 <div className="flex justify-center items-center">
                     <div>

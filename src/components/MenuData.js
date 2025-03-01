@@ -5,12 +5,12 @@ const MenuData = [
         name: "Quesataco",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         price: "$3.75",
-        urlImg: "",
+        urlImg: "https://www.aquiestexcoco.com/aet/wp-content/uploads/2016/08/texcoco-quesataco-IMG_6547.jpg",
     },
     {
         id:2,
         cat:1,
-        name: "Quesabirria 3Pz",
+        name: "Quesabirria 3 Pz",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$10.99",
         urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1736797511/imagen_2025-01-13_124509039_brs9qq.png",
@@ -36,15 +36,15 @@ const MenuData = [
         cat:1,
         name: "Gorditas",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
-        price: "$4.99",
-        urlImg: "",
+        price: "$5.99",
+        urlImg: "https://hips.hearstapps.com/hmg-prod/images/gorditas-1-1676665006.jpg?crop=1xw:0.843558282208589xh;center,top&resize=1200:*",
     },
     {
         id:5,
         cat:1,
         name: "Sopes",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
-        price: "$4.99",
+        price: "$5.99",
         urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1736971932/imagen_2025-01-15_131208769_cqyb0u.png",
     },
     {
@@ -53,7 +53,7 @@ const MenuData = [
         name: "Tacos dorados",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$1.99",
-        urlImg: "",
+        urlImg: "https://i.ytimg.com/vi/cNFMSlHvdDk/maxresdefault.jpg",
     },
     {
         id:8,
@@ -61,7 +61,7 @@ const MenuData = [
         name: "Quesadilla",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$10.99",
-        urlImg: "",
+        urlImg: "https://www.vvsupremo.com/wp-content/uploads/2015/11/900X570_Two-Cheese-Quesadillas.jpg",
     },
     {
         id:9,
@@ -69,7 +69,7 @@ const MenuData = [
         name: "Sopa ramen con birria",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$12.99",
-        urlImg: "",
+        urlImg: "https://inmamamaggieskitchen.com/wp-content/uploads/2021/02/Birria-Ramen.jpg",
     },
     {
         id:10,
@@ -85,7 +85,7 @@ const MenuData = [
         name: "Burrito Regular",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$10.99",
-        urlImg: "",
+        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1740807493/imagen_2025-02-28_223809063_kiva2e.png",
     },
     {
         id:12,
@@ -93,7 +93,7 @@ const MenuData = [
         name: "Burrito Supreme",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$11.99",
-        urlImg: "",
+        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1740807493/imagen_2025-02-28_223809063_kiva2e.png",
     },
     {
         id:13,
@@ -125,7 +125,7 @@ const MenuData = [
         name: "Wet Burrito",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$11.99",
-        urlImg: "",
+        urlImg: "https://tastykitchen.com/recipes/wp-content/uploads/sites/2/2009/09/burrito.jpg",
     },
     {
         id:17,
@@ -133,7 +133,7 @@ const MenuData = [
         name: "Torta regular",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$10.00",
-        urlImg: "",
+        urlImg: "https://www.lagula.com.mx/wp-content/uploads/2024/05/torta-mexicana.jpg",
     },
     {
         id:18,
@@ -157,7 +157,7 @@ const MenuData = [
         name: "Molcajete",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$27.99",
-        urlImg: "",
+        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1740804217/imagen_2025-02-28_214335332_kkpjye.png",
     },{
         id:21,
         cat:2,
@@ -196,7 +196,7 @@ const MenuData = [
         name: "Ostiones 12 Pz",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$22.99",
-        urlImg: "",
+        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1736797718/WhatsApp_Image_2024-12-05_at_9.16.18_PM_jybpbq.jpg",
     },
     {
         id:26,
@@ -220,15 +220,15 @@ const MenuData = [
         name: "Filete de pescado",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$18.99",
-        urlImg: "",
+        urlImg: "https://www.cocinadelirante.com/800x600/filters:format(webp):quality(75)/sites/default/files/images/2022/12/como-cocinar-filete-pescado-no-se-pegue.jpg",
     },
     {
         id:29,
         cat:2,
         name: "Mojarra",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
-        price: "$16.99",
-        urlImg: "",
+        price: "$17.99",
+        urlImg: "https://i.pinimg.com/474x/30/e6/a0/30e6a062655b4d1e36c9284f48a41049.jpg",
     },
     {
         id:30,
@@ -236,7 +236,7 @@ const MenuData = [
         name: "Tacos de gobernador",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$4.50",
-        urlImg: "",
+        urlImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4mpVPWUoq_b6i5wo7-_QCFX1cKjZBAxdPZw&s",
     },
     {
         id:31,
@@ -244,7 +244,7 @@ const MenuData = [
         name: "Caldo de camaron y pescado",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$21.99",
-        urlImg: "",
+        urlImg: "https://i.ytimg.com/vi/m_o9-4bnG8A/maxresdefault.jpg",
     },
     {
         id:32,
@@ -260,7 +260,7 @@ const MenuData = [
         name: "Coctel de camaron y pulpo",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$17.99",
-        urlImg: "",
+        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1740808395/imagen_2025-02-28_225312549_uxhy9z.png",
     },
     {
         id:34,
@@ -268,7 +268,7 @@ const MenuData = [
         name: "Tostada de ceviche de pescado",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$8.99",
-        urlImg: "",
+        urlImg: "https://mariscoselrey.com.mx/wp-content/uploads/2020/03/Cev.-de-Pescado.jpg",
     },
     {
         id:35,
@@ -276,15 +276,15 @@ const MenuData = [
         name: "Tostada de camaron",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$9.99",
-        urlImg: "",
+        urlImg: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYfn8ZX7_X1iT0umcFtIFqcrRG_MSoGp5lPpUfpWWkqu2-QsbIFQSgEGuGeOJEG9lCVu-vaQ5Y7dBmXYcqzVik-4ntx2YmBusImCqWe7IdZBsiOApOYKR70_SUGJrTHmXVLswx_PyX7Tw/s1600/DSC09147.JPG",
     },
     {
         id:36,
         cat:2,
         name: "Caldo de camaron",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
-        price: "$19.99",
-        urlImg: "",
+        price: "$21.99",
+        urlImg: "https://i.pinimg.com/736x/25/4d/25/254d256bac7619605086edadb113165e.jpg",
     },
     {
         id:37,
@@ -292,7 +292,7 @@ const MenuData = [
         name: "Fajitas mixtas",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$27.99",
-        urlImg: "",
+        urlImg: "https://media-cdn.tripadvisor.com/media/photo-s/0e/0c/df/11/fajitas-mixtas.jpg",
     },
     {
         id:38,
@@ -300,7 +300,7 @@ const MenuData = [
         name: "Hamburguesa regular",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$8.00",
-        urlImg: "",
+        urlImg: "https://m.ftscrt.com/food/621d9eb5-6466-45ab-aa9c-9039146637f4_lg_sq.jpg",
     },
     {
         id:39,
@@ -308,7 +308,7 @@ const MenuData = [
         name: "Hamburguesa Doble carne",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$9.00",
-        urlImg: "",
+        urlImg: "https://static.wixstatic.com/media/29cc8e_d71742bc6ab84e769b4937b344c72ebd~mv2.jpg/v1/fill/w_568,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/29cc8e_d71742bc6ab84e769b4937b344c72ebd~mv2.jpg",
     },
     {
         id:40,
@@ -316,7 +316,7 @@ const MenuData = [
         name: "Hamburguesa Especial",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$10.00",
-        urlImg: "",
+        urlImg: "https://resizer.glanacion.com/resizer/v2/hamburguesa-blt-de-john-john-burger-bacon-lettuce-RHVGX3MHVRB7VGEXBEVCCZHW5I.jpg?auth=53776ee5a203ae1fbe457df3473f7c2d9470016ad51a458c73c5b950966a4f57&width=768&quality=70&smart=false",
     },
     {
         id:41,
@@ -324,7 +324,7 @@ const MenuData = [
         name: "Nuggets",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$8.99",
-        urlImg: "",
+        urlImg: "https://westcofoods.com/wp-content/uploads/2020/09/Chicken-nuggets-7.jpg",
     },
     {
         id:42,
@@ -332,7 +332,7 @@ const MenuData = [
         name: "Agua fresca - mediana",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$3.00",
-        urlImg: "",
+        urlImg: "https://www.clarin.com/2020/07/21/7Pj44-Cyq_600x600__1.jpg",
     },
     {
         id:43,
@@ -340,7 +340,7 @@ const MenuData = [
         name: "Agua fresca - grande",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$4.00",
-        urlImg: "",
+        urlImg: "https://www.clarin.com/2020/07/21/7Pj44-Cyq_600x600__1.jpg",
     },
     {
         id:44,
@@ -348,7 +348,7 @@ const MenuData = [
         name: "Cerveza",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$5.00",
-        urlImg: "",
+        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1740804131/imagen_2025-02-28_214208369_voo8xd.png",
     },
     {
         id:45,
@@ -356,7 +356,7 @@ const MenuData = [
         name: "Michelada",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$10.99",
-        urlImg: "",
+        urlImg: "https://editorialtelevisa.brightspotcdn.com/dims4/default/b81b0c7/2147483647/strip/true/crop/672x672+261+0/resize/1000x1000!/quality/90/?url=https%3A%2F%2Fk2-prod-editorial-televisa.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fcb%2F87%2F9cf368f04c538a56846d6705dfaa%2Fmichelada-cubana-receta-facil-y-rapida.jpg",
     },
     {
         id:46,
@@ -364,7 +364,7 @@ const MenuData = [
         name: "Michelada loca",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$14.99",
-        urlImg: "",
+        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1740804007/imagen_2025-02-28_214003923_xe5ndp.png",
     },
     {
         id:47,
@@ -406,6 +406,46 @@ const MenuData = [
         price: "$3.50",
         urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1736971991/imagen_2025-01-15_131308144_r4q3bs.png",
     },    
+    {
+        id:52,
+        cat:2,
+        name: "Camarones rellenos",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
+        price: "$19.99",
+        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1740803499/imagen_2025-02-28_213136495_hqrgil.png",
+    },
+    {
+        id:53,
+        cat:2,
+        name: "Molcajete de mariscos",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
+        price: "$35.99",
+        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1740803555/imagen_2025-02-28_213232637_mrldyq.png",
+    },
+    {
+        id:54,
+        cat:2,
+        name: "Camarones a la Luisiana",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
+        price: "$36.99",
+        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1740803590/imagen_2025-02-28_213307806_xawura.png",
+    },
+    {
+        id:55,
+        cat:2,
+        name: "Empanadas de camaron 6 Pz",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
+        price: "$16.99",
+        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1740803773/imagen_2025-02-28_213610107_lz96ap.png",
+    },
+    {
+        id:56,
+        cat:2,
+        name: "Aguachile mixto",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
+        price: "$23.99",
+        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1740803671/imagen_2025-02-28_213428107_lftmvz.png",
+    },
 ]
 
 export default MenuData;

@@ -9,8 +9,8 @@ const Card = ({urlImg, name, desc, price}) => {
             </div>
 
             <div className="space-y-2 p-3">
-                <h1 className="line-clamp-1 font-bold text-xl">{name}</h1>
-                <p className="line-clamp-2 opacity-70">{desc}</p>
+                <h1 className="flex items-center justify-center line-clamp-1 font-bold text-xl">{name}</h1>
+                {/*<p className="line-clamp-2 opacity-70">{desc}</p>*/}
                 <div className="flex items-center justify-center border-t-2 y-3 !mt-3">
                     <div>
                         <p className="text-2xl font-bold">{price}</p>
