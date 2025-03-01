@@ -125,7 +125,7 @@ const MenuData = [
         name: "Wet Burrito",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$11.99",
-        urlImg: "https://tastykitchen.com/recipes/wp-content/uploads/sites/2/2009/09/burrito.jpg",
+        urlImg: "https://cdn.grmag.com/wp-content/uploads/sites/113/2023/10/Burrito-363.jpg",
     },
     {
         id:17,
@@ -212,7 +212,7 @@ const MenuData = [
         name: "Charola especial",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$45.00",
-        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1736797893/imagen_2025-01-13_125129855_fxd6zi.png",
+        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1740814000/imagen_2025-03-01_002637809_qlpdx8.png",
     },
     {
         id:28,
@@ -228,7 +228,7 @@ const MenuData = [
         name: "Mojarra",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$17.99",
-        urlImg: "https://i.pinimg.com/474x/30/e6/a0/30e6a062655b4d1e36c9284f48a41049.jpg",
+        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1740814088/mojarra_docgze.png",
     },
     {
         id:30,
@@ -347,7 +347,7 @@ const MenuData = [
         cat:4,
         name: "Cerveza",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
-        price: "$5.00",
+        price: "$5.99",
         urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1740804131/imagen_2025-02-28_214208369_voo8xd.png",
     },
     {
@@ -388,7 +388,7 @@ const MenuData = [
         name: "Birria de chivo mediano",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$13.99",
-        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1736797976/imagen_2025-01-13_125253085_pjckcx.png",
+        urlImg: "https://www.cocinavital.mx/wp-content/uploads/2017/09/Birria.jpg",
     },
     {
         id:50,
@@ -396,7 +396,7 @@ const MenuData = [
         name: "Birria de chivo grande",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$15.99",
-        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1736797976/imagen_2025-01-13_125253085_pjckcx.png",
+        urlImg: "https://www.cocinavital.mx/wp-content/uploads/2017/09/Birria.jpg",
     },
     {
         id:51,
@@ -445,6 +445,14 @@ const MenuData = [
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
         price: "$23.99",
         urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1740803671/imagen_2025-02-28_213428107_lftmvz.png",
+    },
+    {
+        id:57,
+        cat:2,
+        name: "Campechana",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel odio et mi lacinia scelerisque.",
+        price: "$19.99",
+        urlImg: "https://res.cloudinary.com/do5dkuplw/image/upload/v1740814183/1ebb4548-c930-4a90-b3de-5e8516ef0cf0_ptg5pc.jpg",
     },
 ]
 
